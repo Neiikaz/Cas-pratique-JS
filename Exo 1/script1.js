@@ -43,7 +43,7 @@ console.log(aleatoire);// Mot générer aléatoirement
 
 // Exercice Maison JS
 
-//Tableau avec mes nombres
+//Exercice 1 : Tableau avec mes nombres/Addition des éléments d'un tableau 
 let tableau = [1, 2 ,3 ,4 ,5 , 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 console.log(tableau)
 //La somme de tout les éléments de mon tableau avec méthode reduce
@@ -51,4 +51,4 @@ let calculsom = tableau.reduce((cst, chiffre) => cst + chiffre,0);
 console.log(calculsom) // Afficher la somme de mon tableau
 
 
-
+//Exercice Maison 2 Recherche d'élément dans un tableau 
