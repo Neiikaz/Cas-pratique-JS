@@ -52,3 +52,4 @@ console.log(calculsom) // Afficher la somme de mon tableau
 
 
 //Exercice Maison 2 Recherche d'élément dans un tableau 
+// Utilisation de "if pour trouvé ou non trouvé"
