@@ -53,3 +53,19 @@ console.log(calculsom) // Afficher la somme de mon tableau
 
 //Exercice Maison 2 Recherche d'élément dans un tableau 
 // Utilisation de "if pour trouvé ou non trouvé"
+
+let marque = ['Nike','Logitech','Harrys','Lipton','Monster','Daddy'];// Je créé mon tableau avec mes valeurs
+console.log (marque) // Je veux afficher mon tableau
+function rechercherElement(marque,search) { //Je créé ma fonction "rechercher" je veux consulter mon tableau et utilisé ma fonction "search"
+for (let i = 0; i < marque.length; i++ ) {//Création d'une boucle, i égale a 0 et je veux que ma boucle parcours mon tableau du coup i++
+    if (marque[i] === search) {
+        return "Trouvé";
+        }
+    }
+    return "Non trouvé";
+}
+let search = 'coca'; // Marque qui ne ce trouve pas dans mon tableau du coup "Non trouvé"
+let resmar = rechercherElement(marque ,search);
+console.log(resmar)
+
+
