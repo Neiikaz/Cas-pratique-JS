@@ -68,4 +68,15 @@ let search = 'coca'; // Marque qui ne ce trouve pas dans mon tableau du coup "No
 let resmar = rechercherElement(marque ,search);
 console.log(resmar)
 
+//Exercice 3 Maison Doublage des Éléments d'un Tableau
+function doublElement (tableur)
+//je créer un nouveau tableau qui est sera vide d'ou le []
+let tableaudouble = [];
+//Je créer une boucle qui rajout une valeaur et que je multiplie
+for (let i=0;i < tableaudouble.length; i++) { //incrémentation =0 et longueur du tableau et i+1
+
+}
+
+
+
 
